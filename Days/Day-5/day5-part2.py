@@ -90,7 +90,6 @@ def main():
             to_ = int(nb[i]) - 1
             for j in range(sum):
                 buffer.append(crates[from_].stack.pop(len(crates[from_].stack) - 1))
-            print(buffer)
             for y in range(len(buffer)):
                 crates[to_].stack.append(buffer[len(buffer) - 1 - y])
             buffer = []
