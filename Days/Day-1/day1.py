@@ -1,6 +1,3 @@
-from typing import List
-
-
 class Elv:
     def __init__(self, food):
         self.food = food
@@ -10,7 +7,7 @@ class Elv:
 
 
 def main():
-    elv_food: list[int] = []
+    elv_food = []
     elv_list = []
     f = open("List_Elvs.txt").readlines()
     f.append("\n")
